@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.faqs-container {
+    width: auto; /* Set maximum width to 100% of the parent container */
+    height: 1024px;
+    margin: 0 auto; /* Center the container horizontally */
+    background: rgb(228,13,46);
+    background: radial-gradient(circle, rgba(228,13,46,1) 0%, rgba(1,28,117,1) 100%);
+  }
+  .faqs-nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.faqs-nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    width: 30%;
+}
+
+.faqs-nav-left img {
+    max-width: 60px;
+    min-width: 60px;
+}
+
+.faqs-nav-left p {
+    font-family: Inter;
+    text-align: start;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+    min-width: 100px;
+}
+
+.faqs-nav-center,
+.faqs-nav-right {
+    display: none; /* Initially hide center and right */
+}
+.faqs-nav-right img {
+    max-width: 30px;
+    min-width: 30px;
+}
+.faqs-header {
+    text-align: center;
+}
+  .faqs-header p {
+    font-family: Inter;
+    text-align: center;
+    font-weight: 600;
+    font-size: 64px;
+    color: #fff;
+    min-width: 100px;
+    margin: 0;
+    padding-top: 5rem;
+    padding-left: 1rem ;
+    padding-right: 1rem ;
+    width: auto;
+    opacity: 0; /* Start with opacity set to 0 */
+    line-height: 1.2; /* Adjust line height for better spacing */
+    display: inline-block;
+    animation: fadeIn .6s ease-in-out forwards; /* 3s duration for a slow fade-in */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+.faqs-header p span {
+    display: inline-block;
+    transform-origin: 50% 50%;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    20%, 50%, 80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    40% {
+        opacity: 1;
+        transform: translateY(-6px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Apply delays and animations to each span */
+.faqs-header p span:nth-child(1) {
+    animation: bounce .6s ease-in forwards 0.30s;
+}
+.faqs-header p span:nth-child(2) {
+    animation: bounce .6s ease-in forwards 0.35s;
+}
+.faqs-header p span:nth-child(3) {
+    animation: bounce .6s ease-in forwards 0.4s;
+}
+.faqs-header p span:nth-child(4) {
+    animation: bounce .6s ease-in forwards 0.45s;
+}
+.faqs-header p span:nth-child(5) {
+    animation: bounce .6s ease-in forwards 0.5s;
+}
+.faqs-header p span:nth-child(6) {
+    animation: bounce .6s ease-in forwards 0.55s;
+}
+.faqs-header p span:nth-child(7) {
+    animation: bounce .6s ease-in forwards 0.6s;
+}
+.faqs-header p span:nth-child(8) {
+    animation: bounce .6s ease-in forwards 0.65s;
+}
+.faqs-header p span:nth-child(9) {
+    animation: bounce .6s ease-in forwards 0.7s;
+}
+.faqs-header p span:nth-child(10) {
+    animation: bounce .6s ease-in forwards 0.75s;
+}
+.faqs-header p span:nth-child(11) {
+    animation: bounce .6s ease-in forwards 0.8s;
+}
+.faqs-header p span:nth-child(12) {
+    animation: bounce .6s ease-in forwards 0.85s;
+}
+.faqs-header p span:nth-child(13) {
+    animation: bounce .6s ease-in forwards .9s;
+}
+.faqs-header p span:nth-child(14) {
+    animation: bounce .6s ease-in forwards .95s;
+}
+.faqs-header p span:nth-child(15) {
+    animation: bounce .6s ease-in forwards 1s;
+}
+.faqs-header p span:nth-child(16) {
+    animation: bounce .6s ease-in forwards 1.05s;
+}
+.faqs-header p span:nth-child(17) {
+    animation: bounce .6s ease-in forwards .3s;
+}
+.faqs-header p span:nth-child(18) {
+    animation: bounce .6s ease-in forwards .35s;
+}
+.faqs-header p span:nth-child(19) {
+    animation: bounce .6s ease-in forwards .4s;
+}
+.faqs-header p span:nth-child(20) {
+    animation: bounce .6s ease-in forwards .45s;
+}
+.faqs-header p span:nth-child(21) {
+    animation: bounce .6s ease-in forwards .5s;
+}
+.faqs-header p span:nth-child(22) {
+    animation: bounce .6s ease-in forwards .55ss;
+}
+.faqs-header p span:nth-child(23) {
+    animation: bounce .6s ease-in forwards .6s;
+}
+.faqs-header p span:nth-child(24) {
+    animation: bounce .6s ease-in forwards .65s;
+}
+.faqs-header p span:nth-child(25) {
+    animation: bounce .6s ease-in forwards .7s;
+}
+.faqs-header p span:nth-child(26) {
+    animation: bounce .6s ease-in forwards .75s;
+}
+  .faqs-subheader p {
+    font-family: Inter;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+    min-width: 100px;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem ;
+    padding-right: 1rem ;
+    width: auto;
+    opacity: 0; /* Start with opacity set to 0 */
+    animation: fadeIn 1.5s ease-in-out forwards; /* 1.5s duration for the fade-in */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+  .faqs-userauth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem ;
+    padding-right: 1rem ;
+    width: auto;
+    gap: .5rem;
+  }
+  .faqs-userauth-login {
+    min-width: 160px;
+    height: 44px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff; /* 2px solid white border */
+    border-radius: 32px; /* 32px border radius */
+}
+  .faqs-userauth-register {
+    min-width: 160px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+  }
+  .faqs-userauth-login, .faqs-userauth-register p  {
+    text-align: center;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+  }
+  .faqs-userauth-login, .faqs-userauth-register {
+    opacity: 0; /* Start with opacity set to 0 */
+    transform: translateY(20px); /* Start position below the viewport */
+    animation: slideUp 1s ease-in-out forwards; /* 1s duration for the slide-up */
+    }
+
+@keyframes slideUp {
+    to {
+        opacity: 1; /* Fade in to full opacity */
+        transform: translateY(0); /* Slide up to original position */
+    }
+}
+  .faqs-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .faqs-card img {
+    width: 400px; /* Adjust the width to your desired pixel value */
+    margin-bottom: -330px;
+    opacity: 0; /* Start with opacity set to 0 */
+    transform: translateY(-30px); /* Move the images up initially */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transitions for opacity and transform */
+  }
+
+  .faqs-card img:nth-child(1) {
+    z-index: 1;
+    animation: fadeIn 1s ease .2s forwards; /* Apply the fadeIn animation to the first image */
+  }
+  .faqs-card img:nth-child(2) {
+    z-index: 2;
+    animation: fadeIn 1s ease .4s forwards; /* Apply the fadeIn animation to the second image */
+  }
+  .faqs-card img:nth-child(3) {
+    z-index: 3;
+    animation: fadeIn 1s ease .6s forwards; /* Apply the fadeIn animation to the third image */
+  }
+  .faqs-card img:nth-child(4) {
+    z-index: 4;
+    animation: fadeIn 1s ease 0.8s forwards; /* Apply the fadeIn animation to the fourth image */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move the images back down */
+    }
+  }
+
+  /* Media query for minimum width of 480px */
+@media screen and (min-width: 480px) {
+    .faqs-container {
+        min-width: 480px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .faqs-header p {
+        font-size: 52px; /* Adjust font size for smaller screens */
+        line-height: 1.4; /* Adjust line height for better spacing on smaller screens */
+    }
+    .faqs-subheader p {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        line-height: 1.4; /* Adjust line height for better spacing on smaller screens */
+    }
+}
+/* Default styles for screens 768px and above */
+    @media screen and (min-width: 769px) {
+    .faqs-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .faqs-nav-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: 40%;
+    }
+
+    .faqs-nav-center p {
+        font-family: Inter;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+        min-width: 100px;
+    }
+
+    .faqs-nav-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: 30%;
+    }
+
+    .faqs-nav-left p {
+        font-family: Inter;
+        text-align: start;
+        font-weight: 800;
+        font-size: 24px;
+        color: #fff;
+        min-width: 100px;
+    }
+
+    .faqs-nav-left img {
+        max-width: 60px;
+        min-width: 60px;
+    }
+
+    .faqs-nav-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: 30%;
+    }
+
+    .faqs-nav-right img {
+        max-width: 40px;
+        min-width: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .faqs-nav {
+        flex-direction: row; /* Stack elements vertically on smaller screens */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faqs-nav-center {
+        display: none; /* Hide the center element on smaller screens */
+    }
+
+    .faqs-nav-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: 100%; /* Take up the full width */
+    }
+
+    .faqs-nav-left p {
+        font-family: Inter;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+        min-width: 100px;
+        margin-right: -20%;
+    }
+
+    .faqs-nav-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: 20%; /* Take up the full width */
+    }
+
+    .faqs-nav-right img {
+        max-width: 40px; /* Adjust the max-width as needed */
+        min-width: 40px; /* Adjust the min-width as needed */
+    }
+}
+

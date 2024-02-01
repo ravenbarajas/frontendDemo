@@ -18,8 +18,8 @@ function homepage() {
             </div>
             <div className='homepage-nav-center'>
                 <p>Home</p>
-                <p>Pricing</p>
                 <p>Services</p>
+                <p>Pricing</p>
                 <p>FAQs</p>
             </div>
             <div className='homepage-nav-right'>
